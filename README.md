@@ -13,12 +13,41 @@
 ├── 📁 paper_code/          # Source code to reproduce paper results
 ├── 📁 SGIR_tutorial/       # Folder for tutorial
 │   └── SGIR_tutorial.ipynb # Interactive notebook tutorial
-└── README.md               # Project documentation
+├── README.md               # Project documentation
+└── requirements.txt        # Python dependencies
 ```
 
 ---
 
 ## 🚀 Getting Started
+
+### 🛠️ Installation
+Before running the code or the tutorial, ensure you have the necessary dependencies installed. 
+
+1. Clone the repository
+First, download the project files to your local machine
+
+2. Set up a virtual environment
+It is recommended to use a virtual environment to keep your dependencies organized:
+
+```bash
+# Create the virtual environment
+python -m venv sgir-qaoa_env
+
+# Activate the environment
+# On Windows:
+.\sgir-qaoa_env\Scripts\activate
+# On macOS/Linux:
+source sgir-qaoa_env/bin/activate
+```
+
+3. Install required packages
+
+```bash
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
 
 ### Interactive Tutorial
 If you are new to SGIR-QAOA, we recommend starting with the interactive tutorial. Navigate to the [`SGIR_tutorial/`](./SGIR_tutorial/) folder and open `SGIR_tutorial.ipynb` to see a step-by-step demonstration of the SGIR-QAOA implementation.
