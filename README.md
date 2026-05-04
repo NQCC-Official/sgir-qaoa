@@ -24,10 +24,10 @@
 ### 🛠️ Installation
 Before running the code or the tutorial, ensure you have the necessary dependencies installed. 
 
-1. Clone the repository
+#### 1. Clone the repository
 First, download the project files to your local machine
 
-2. Set up a virtual environment
+#### 2. Set up a virtual environment
 It is recommended to use a virtual environment to keep your dependencies organized:
 
 ```bash
@@ -41,7 +41,7 @@ python -m venv sgir-qaoa_env
 source sgir-qaoa_env/bin/activate
 ```
 
-3. Install required packages
+#### 3. Install required packages
 
 ```bash
 python -m pip install --upgrade pip
