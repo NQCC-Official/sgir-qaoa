@@ -25,7 +25,7 @@
 Before running the code or the tutorial, ensure you have the necessary dependencies installed. 
 
 #### 1. Clone the repository
-First, download the project files to your local machine
+First, download the project files to your local machine.
 
 #### 2. Set up a virtual environment
 It is recommended to use a virtual environment to keep your dependencies organized:
